@@ -5,6 +5,7 @@ import Populares from "componentes/Populares";
 
 import Banner from "./banner.png"
 import styles from './PaginaInicial.module.scss'
+import Rodape from "componentes/Rodape";
 
 export default function PaginaInicial() {
     return (
@@ -23,6 +24,7 @@ export default function PaginaInicial() {
                     <Populares />
                 </div>
             </main>
+            <Rodape />
         </>
     )
 }
